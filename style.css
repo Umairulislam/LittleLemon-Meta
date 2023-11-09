@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header img {
+  display: flex;
+  margin: 0 auto;
+  width: 40%;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+li a:hover {
+  color: rgb(244, 206, 20);
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  list-style: none;
+  font-size: 24px;
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+nav {
+  background-color: rgb(73, 94, 87);
+  /* background-color: rgb(244,206,20); */
+  border-radius: 50px;
+}
+
+.banner-container {
+  position: relative;
+  margin-top: 30px;
+  color: whitesmoke;
+  font-weight: 900;
+}
+.banner-container img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.banner-container h1 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 50px;
+}
+.banner-container p {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  font-size: 20px;
+}
+
+/* menu container */
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-top: 30px;
+  color: whitesmoke;
+}
+.menu-container article {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  background-color: rgb(73, 94, 87);
+  border-radius: 20px;
+}
+.menu-container h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.menu-container img {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+button:hover {
+  color: rgb(244, 206, 20);
+}
+
+footer {
+  border-top: 2px solid rgb(73, 94, 87);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  padding: 10px 30px;
+  flex-wrap: wrap;
+}
+footer img {
+  width: 60px;
+}
